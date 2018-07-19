@@ -7,16 +7,9 @@
 Software architecture description
 
 #### Installation
-
-1. xxxx
-2. xxxx
-3. xxxx
+no thing
 
 #### Instructions
-
-1. xxxx
-2. xxxx
-3. xxxx
 
 #### Contribution
 

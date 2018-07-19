@@ -1,0 +1,27 @@
+{
+  "name": "alex/FastRutorFast",
+  "description":  "基于 Swoole 的常驻内存型 PHP 高性能路由组件",
+  "keywords": ["babeltime"],
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "DeadPool",
+      "email": "yangshen0723@gmail.com",
+      "homepage": "https://github.com/yangshen1987",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=7.0.0",
+    "php-school/cli-menu": "^3.0"
+  },
+  "require-dev": {
+    "eaglewu/swoole-ide-helper": "dev-master",
+    "phpunit/phpunit": "^4.8.35|~5.7"
+  },
+  "autoload": {
+    "psr-4": {
+      "we7\\HttpRoute\\": "Src/"
+    }
+  }
+}
