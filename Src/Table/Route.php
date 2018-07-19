@@ -105,7 +105,7 @@ class Route
         $parasObj  = new Std();
         $routeInfo = [];
         foreach($routeData as $handler=>$url){
-            $routeInfo[$handler] = $parasObj->parse($url);
+            $routeInfo[$handler] = $parasObj->parse($url)[0];
         }
         $routeDataObj = new GetRouteData();
         foreach($routeInfo as $handler=>$route) {

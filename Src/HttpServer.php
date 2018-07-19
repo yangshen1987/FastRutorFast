@@ -20,6 +20,11 @@ use we7\HttpRoute\Table\Route;
 class HttpServer
 {
     /**
+     *  [
+     *  "GET"=>[
+     *          'handler'=>"/module/info/{id:\d+}"
+     *          ]
+     * ]
      * @param array $configData
      * @return bool
      */

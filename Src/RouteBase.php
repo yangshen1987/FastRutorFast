@@ -50,11 +50,16 @@ class RouteBase
             ));
         }
 
-        if (isset($this->methodToRegexToRoutesMap[$httpMethod])) {
+        if (isset($this->methodToRegexToRoutesMap[$httpMethod][$routeStr])) {
             throw new BadRouteException("rout must not repeat");
         }
 
-        $this->staticRoutes[$httpMethod][$routeStr] = $handler;
+        $this->staticRoutes[$httpMethod][$routeStr] = [
+            'httpMethod'=>$httpMethod,
+            'handler'=>$handler,
+            'regex'=>$routeStr,
+            'variables'=>'',
+        ];;
     }
 
     /**
