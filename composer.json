@@ -1,5 +1,5 @@
 {
-  "name": "alexYang/fast-rutor-fast",
+  "name": "alex-yang/fast-rutor-fast",
   "description":  "基于 Swoole 的常驻内存型 PHP 高性能路由组件",
   "keywords": ["babeltime"],
   "license": "Apache-2.0",
