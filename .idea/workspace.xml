@@ -2,112 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6addf4a4-b535-4dc6-85a7-de20a25e2ddf" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/testRout.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Src/Dispatcher.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Src/Exception/BadRequestException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Src/Exception/BadRouteException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Src/Exception/ForbiddenException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Src/Exception/HttpException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Src/Exception/MethodNotAllowedException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Src/Exception/NotAcceptableException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Src/Exception/NotFoundException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Src/Exception/RouteNotFoundException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Src/Exception/UnauthorizedException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Src/HttpServer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Src/RouteBase.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Src/RouteParser.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Src/RouteParser/GetRouteData.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Src/RouteParser/GroupCountBased.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Src/RouteParser/PostRouteData.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Src/RouteParser/RegexBasedAbstract.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Src/RouteParser/Std.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Src/Table/Route.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Src/bootstrap.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/autoload.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/beberlei/assert/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/beberlei/assert/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/beberlei/assert/lib/Assert/Assert.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/beberlei/assert/lib/Assert/Assertion.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/beberlei/assert/lib/Assert/AssertionChain.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/beberlei/assert/lib/Assert/AssertionFailedException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/beberlei/assert/lib/Assert/InvalidArgumentException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/beberlei/assert/lib/Assert/LazyAssertion.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/beberlei/assert/lib/Assert/LazyAssertionException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/beberlei/assert/lib/Assert/functions.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/composer/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/composer/autoload_files.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/composer/autoload_real.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/composer/installed.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/eaglewu/swoole-ide-helper" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/php-school/cli-menu/CHANGELOG.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/php-school/cli-menu/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/php-school/cli-menu/UPGRADE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/php-school/cli-menu/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/php-school/cli-menu/docs/pt_BR/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/php-school/cli-menu/src/Action/ExitAction.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/php-school/cli-menu/src/Action/GoBackAction.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/php-school/cli-menu/src/Builder/CliMenuBuilder.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/php-school/cli-menu/src/Builder/SplitItemBuilder.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/php-school/cli-menu/src/CliMenu.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/php-school/cli-menu/src/Dialogue/Confirm.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/php-school/cli-menu/src/Dialogue/Dialogue.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/php-school/cli-menu/src/Dialogue/Flash.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/php-school/cli-menu/src/Exception/InvalidTerminalException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/php-school/cli-menu/src/Exception/MenuNotOpenException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/php-school/cli-menu/src/Frame.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/php-school/cli-menu/src/Input/Input.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/php-school/cli-menu/src/Input/InputIO.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/php-school/cli-menu/src/Input/InputResult.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/php-school/cli-menu/src/Input/Number.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/php-school/cli-menu/src/Input/Password.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/php-school/cli-menu/src/Input/Text.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/php-school/cli-menu/src/MenuItem/AsciiArtItem.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/php-school/cli-menu/src/MenuItem/LineBreakItem.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/php-school/cli-menu/src/MenuItem/MenuItemInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/php-school/cli-menu/src/MenuItem/MenuMenuItem.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/php-school/cli-menu/src/MenuItem/SelectableItem.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/php-school/cli-menu/src/MenuItem/SelectableTrait.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/php-school/cli-menu/src/MenuItem/SplitItem.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/php-school/cli-menu/src/MenuItem/StaticItem.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/php-school/cli-menu/src/MenuStyle.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/php-school/cli-menu/src/Terminal/TerminalFactory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/php-school/cli-menu/src/Util/ColourUtil.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/php-school/cli-menu/src/Util/StringUtil.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/php-school/terminal/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/php-school/terminal/.travis.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/php-school/terminal/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/php-school/terminal/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/php-school/terminal/phpunit.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/php-school/terminal/src/Exception/NotInteractiveTerminal.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/php-school/terminal/src/IO/BufferedOutput.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/php-school/terminal/src/IO/InputStream.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/php-school/terminal/src/IO/OutputStream.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/php-school/terminal/src/IO/ResourceInputStream.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/php-school/terminal/src/IO/ResourceOutputStream.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/php-school/terminal/src/InputCharacter.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/php-school/terminal/src/NonCanonicalReader.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/php-school/terminal/src/Terminal.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/php-school/terminal/src/UnixTerminal.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/php-school/terminal/test/Exception/NotInteractiveTerminalTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/php-school/terminal/test/IO/BufferedOutputTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/php-school/terminal/test/IO/ResourceInputStreamTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/php-school/terminal/test/IO/ResourceOutputStreamTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/php-school/terminal/test/InputCharacterTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/php-school/terminal/test/NonCanonicalReaderTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/php-school/terminal/test/UnixTerminalTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/testRout.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/testRout.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -139,7 +37,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
@@ -147,6 +45,15 @@
                 <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -206,6 +113,7 @@
         <option value="$PROJECT_DIR$/Src/bootstrap.php" />
         <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -227,6 +135,15 @@
       <path value="$PROJECT_DIR$/vendor/eaglewu/swoole-ide-helper" />
       <path value="$PROJECT_DIR$/vendor/beberlei/assert" />
       <path value="$PROJECT_DIR$/vendor/php-school/cli-menu" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/vendor/symfony/yaml" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/resource-operations" />
     </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
@@ -293,12 +210,12 @@
       <option name="presentableId" value="Default" />
       <updated>1531886007669</updated>
       <workItem from="1531886008919" duration="18729000" />
-      <workItem from="1531962801976" duration="5700000" />
+      <workItem from="1531962801976" duration="5810000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24429000" />
+    <option name="totallyTimeSpent" value="24539000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1080" height="1920" extended-state="6" />
@@ -571,6 +488,13 @@
             <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
         </state>
       </provider>
     </entry>
